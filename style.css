@@ -1,0 +1,169 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif; 
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+p{
+    color: dimgray;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.highlight{
+    color: deeppink;
+}
+.top {
+    display: flow-root;
+    min-height: 52vw;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+.half-width {
+    width: 40%;
+    float: left;
+}
+#top-left {
+    width: 34%;
+    margin-left: 12%;
+    margin-top: 18vw;
+}
+#top-right {
+    width: 38%;
+    margin-left: 0%;
+    margin-top: 6vw;
+}
+.half-width img {
+    width: 100%;
+}
+.link-button{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, hotpink, deeppink);
+    padding: 12px 35px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+}
+.bio{
+    display: flow-root;
+    min-height: 52vw;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bio-left {
+    width: 34%;
+    margin-left: 12%;
+    margin-top: 6vw;
+}
+#bio-right {
+    width: 34%;
+    margin-left: 7%;
+    margin-top: 15vw;
+}
+.work {
+    display: flow-root;
+    padding: 100px 0px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work h2 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.work-box {
+    width: 80%;
+    margin: 0 auto;
+    display: flow-root;
+}
+.one-third-width {
+    width: 31%;
+    float: left;
+    margin: 0 1.16%;
+}
+.one-third-width img {
+    width: 100%;
+    display: block;
+}
+.testimonial {
+    text-align: center;
+    min-height: 40vw;
+    padding: 80px 0 30px;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
+}
+.testimonial h2 {
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+.client-info {
+    margin-bottom: 24px;
+}
+.client-info h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 2px;
+    line-height: 1.5;
+}
+
+.client-role {
+    font-size: 13px;
+    color: dimgray;
+    margin: 0;
+    line-height: 1.5;
+}
+.client-quote {
+    color: #222;
+    font-size: 15px;
+    line-height: 1.7;
+    margin: 0 auto 55px;
+    max-width: 460px;
+}
+.contact-box {
+    width: 48%;
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 46px 54px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, hotpink, deeppink);
+    color: white;
+}
+
+.contact-box p {
+    color: white;
+    font-size: 14px;
+    margin: 0 0 10px;
+    line-height: 1.5;
+}
+
+.contact-box a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+    padding: 100px 0 20px;
+}
+footer p {
+    font-size: 14px;
+    color: dimgray;
+    margin: 0;
+}
